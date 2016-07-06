@@ -1,4 +1,6 @@
-# Applied Predictive - The Perfect Job
+#### Applied Predictive - The Perfect Job
+---
+- use python 2.7
 - Return the best opportunity to pursue given the information of
 (1) what kind of opportunity to pursue,
 (2) where to pursue it, 
