@@ -1,4 +1,4 @@
-ASSUMPTION:
+### ASSUMPTION:
 - 1. Only men can take courtship initiatives. Women can only either 'Accept' or 'Reject' the courtship.
 - 2. Men can court only when the counterpart is single. And women can only accept one courtship.
 - 3. Every men will court from the highest rank on his list. Once being rejected, proceeded to the next in the rank, etc.
