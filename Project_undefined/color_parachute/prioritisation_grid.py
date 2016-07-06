@@ -1,6 +1,3 @@
-__author__ = 'Boya Chiou'
-# inspired by: What Color Is Your Parachute? 2016 edition
-
 import itertools
 
 def grid(*args):
@@ -11,7 +8,6 @@ def grid(*args):
   For item 1 vs. item 2, if item 1 is more important then mark it.
   Given the combinations have equal numbers of each item after unpacking, 
   we can return our prioritization by sorting the frequencies that an item appears.
-  Surprisingly, the recombined result could be different from my original prioritized list..
   """
 	c = itertools.combinations(enumerate(args),2)
 	lst = [] 
