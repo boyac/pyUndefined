@@ -15,4 +15,4 @@ def parse_2():
 	print "The same person differs in location, and is less than an hour: set(['Shilpa', 'Krasi'])"
 
 def merge_list():
-	print "All Suspicious Name List: set(['Matt', 'Shilpa', 'Krasi', 'Jay'])!!!!!!!!"
+	print "All Suspicious Name List: set(['Matt', 'Shilpa', 'Krasi', 'Jay'])"
