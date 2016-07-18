@@ -5,7 +5,7 @@
   - a confidence level
   - a loss amount
   
-- VaR Method
+- VaR Methods
   - Historical method
   - Variance Method (assumes a loss is normally distributed)
   - Monte Carlo method
