@@ -7,5 +7,5 @@
   
 - VaR Methods
   - Historical method
-  - Variance Method (assumes a loss is normally distributed)
+  - Variance Method (assumes a loss is normally distributed; μ=0 and σ=1)
   - Monte Carlo method
