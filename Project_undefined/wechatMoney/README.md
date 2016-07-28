@@ -11,6 +11,7 @@ Wiki 裡對微信紅包的介紹：
 The user assigns a lump sum to a group red envelope, and the number of small red envelopes within it. 
 After posting to a group chat, WeChat will randomly assign the amount in each envelope to each recipient[3]”
 
+代碼如下：
 ```python
 # -*- coding: utf-8 -*-
 __author__ = 'Boya Chiou'
