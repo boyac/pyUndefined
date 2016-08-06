@@ -1,4 +1,4 @@
-### Risk Metrics
+### Risk(*variance) Metrics
 - use python 2.7
 - VaR Components
   - a timeframe
