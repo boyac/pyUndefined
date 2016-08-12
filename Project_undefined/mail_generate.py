@@ -60,13 +60,13 @@ Hi Mr. Couvreur, this is Boya Chiou from <Company_NAME> calling.
 It is important, can we talk?
 I just got this report from our research team,
 they have initiated a buy on <b>BuyMe.Inc</b>
-I remember taht you were trying to save for $1 billion for retirement,
+I remember that you were trying to save for $1 billion for retirement,
 and this struck me as a good fit for you.
 
 			Hi Mr. Couvreur, this is Boya Chiou from <Company_NAME> calling.
 			It is important, can we talk?
 			I just got this report from our research team,'
 			they have initiated a buy on <'+tag+'>' + suggest_stock + '</'+tag+'>
-			I remember taht you were trying to save for $1 billion for retirement,'
+			I remember that you were trying to save for $1 billion for retirement,'
 			and this struck me as a good fit for you.
 	'''
