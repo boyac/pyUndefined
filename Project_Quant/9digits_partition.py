@@ -22,8 +22,8 @@ def simulations(times):
 		num = range(1,10)
 		random.shuffle(num)
 
-		S1 = num[:4]
-		S2 = num[4:]
+		S1 = num[:5]
+		S2 = num[5:]
 		if S1[0] == 9 and S2[0] == 8:
 			# convert str to int
 			x = int(''.join(map(str,S1))) 
