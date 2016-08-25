@@ -3,7 +3,6 @@
 # @Date:   2016-05-22 16:12:29
 # @Last Modified by:   boyac
 # @Last Modified time: 2016-05-22 16:12:29
-# @Reference: https://www.youtube.com/watch?v=kml52n2zmQs
 
 
 from math import *
