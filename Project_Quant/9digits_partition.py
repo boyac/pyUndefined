@@ -25,7 +25,7 @@ def simulations(times):
 		S1 = num[:4]
 		S2 = num[4:]
 		if S1[0] == 9 and S2[0] == 8:
-			# convert list of digits into digits
+			# convert str to int
 			x = int(''.join(map(str,S1))) 
 			y = int(''.join(map(str,S2)))
 			p = x * y
