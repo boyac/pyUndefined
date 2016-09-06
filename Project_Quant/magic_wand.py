@@ -28,4 +28,4 @@ def magic_wand(num_sig, num_wand):
 
 
 if __name__ == '__main__':
-	print magic_wand(2, 1)
+	print magic_wand(2, 1) #10.25, actually I'm not sure the probability part is correct
