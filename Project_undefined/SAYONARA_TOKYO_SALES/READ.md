@@ -1,1 +1,0 @@
-- GoodBye TOKYO 2016
