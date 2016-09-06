@@ -29,3 +29,4 @@ def Binomial(S,K,u,d,r,T): # One-Step Binomial Pricing
 
 if __name__ == "__main__":
     print Binomial(20, 21, 1.1, 0.9, 0.12, 0.25) # 0.632995099032
+    print Binomial(164.0, 165.0, 1.1, 0.9, 0.0521, 0.0959) # 0.522427679626
