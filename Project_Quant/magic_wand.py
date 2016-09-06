@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+# @Author: boyac
+# @Date:   2016-08-22 22:28:14
+# @Last Modified by:   boyac
+# @Last Modified time: 2016-08-22 22:28:14
+
 '''
 Questions:
 Calvin has to cross several signals when he walks from his home to school. 
