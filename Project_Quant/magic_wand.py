@@ -30,9 +30,9 @@ def magic_wand(num_sig, num_wand):
 		#print i
 	#print red
 	# 41 = expected waiting seconds (1/80*(1+80)*80*1/2)
-	return sum([(i-num_wand)*2**(-num_sig)*41 for i in red if i > num_wand]) 
+	return sum([(i-num_wand)*2**(-num_sig)*40.5 for i in red if i > num_wand]) 
 
 
 if __name__ == '__main__':
-	print magic_wand(2, 1) #10.25
-	print magic_wand(3, 1) #25.625
+	print magic_wand(2, 1) #10.125
+	print magic_wand(3, 1) #25.3125
