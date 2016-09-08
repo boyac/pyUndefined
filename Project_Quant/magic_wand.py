@@ -21,18 +21,18 @@ Calvin can use his magic wand, and outputs the expected waiting time?
 '''
 
 import itertools
+from numpy import mean
 
 def magic_wand(num_sig, num_wand):
 	toss = map(''.join, itertools.product('GR', repeat=num_sig))
 	red = []
 	for i in toss:
 		red.append(i.count('R'))
-		#print i
-	#print red
-	# 41 = expected waiting seconds (1/80*(1+80)*80*1/2)
-	return sum([(i-num_wand)*2**(-num_sig)*40.5 for i in red if i > num_wand]) 
 
+	return sum([2**(-num_sig)*mean(range(1, (80*(i-num_wand)+1))) for i in red if i > num_wand])
+	
 
 if __name__ == '__main__':
 	print magic_wand(2, 1) #10.125
-	print magic_wand(3, 1) #25.3125
+	print magic_wand(3, 1) #25.25
+	
