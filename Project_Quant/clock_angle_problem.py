@@ -6,7 +6,7 @@
 
 '''
 Questions:
-(1) What's the angle between the two arms of a clock when it is   at 2:30? 
+(1) What's the angle between the two arms of a clock when it is at 2:30? 
 
 (2) At a certain time between 3pm and 4pm, 
 the hour and the minute hands are at equal angles from the 6 mark, 
