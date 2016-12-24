@@ -1,2 +1,4 @@
-To automate the data scrapping by setting Mac jobs using Terminal
-Step:
+To automate the data scrapping by setting jobs via Terminal by 'crontab -e'
+- Open terminal
+- Type 'crontab -e' and i to Insert jobs
+- * * * * * python <location of the py file> # minutes(0-59), hours(0-23), day(1-31), month(1-12), day of week(0-7)
