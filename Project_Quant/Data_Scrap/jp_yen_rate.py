@@ -1,3 +1,4 @@
+# #!/usr/local/bin/python
 # coding: utf-8
 
 import pandas
@@ -16,9 +17,7 @@ currency.columns = [u'幣別', u'現金匯率-本行買入', u'現金匯率-本�
 currency[u'幣別'] = currency[u'幣別'].str.extract('\((\w+)\)')
 currency.to_excel('yen_rate.xlsx')
 currency['Date'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-
-#修改資料庫欄位類型
-currency['Date'] = pandas.to_datetime(currency['Date'])  
+currency['Date'] = pandas.to_datetime(currency['Date'])  #修改資料庫欄位類型
 #currency.info()
 
 #寫入 yen_rate 資料庫
